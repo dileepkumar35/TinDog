@@ -1,0 +1,193 @@
+body #features,
+#testimonials,
+#press,
+#pricing,
+#cta,
+#footer {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Container section */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+
+}
+
+/* Navigation bar */
+
+#navbar {
+    padding: 0 1.2rem 4.2rem;
+
+
+}
+
+.navbar-brand {
+    font-family: "ubuntu";
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+    font-size: 0.8rem;
+    font-family: "Montserrat";
+    font-style: italic;
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* TItle section */
+
+
+#title .container-fluid {
+    padding: 3% 5% 7%;
+    text-align: left;
+}
+
+/* Title image */
+
+.title-img {
+    width: 18%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Features section */
+
+#features {
+    margin: 0px 10px 0px;
+    position: relative;
+
+    z-index: 1;
+}
+
+
+.feature-title {
+    line-height: 1.5;
+}
+
+
+.icon {
+    color: #ef8172;
+    padding: 2.5rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonials section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #ef8172;
+    padding: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Footer section */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.social-i:hover:hover {
+    color: #952121;
+}
+
+@media (max-width: 950px) {
+    #title .big-heading .title-img{
+        text-align: center;
+    }
+
+    .title-img {
+        width: 60%;
+        position: static;
+        transform: rotate(0);
+    }
+}
